@@ -85,6 +85,14 @@ h1, h2, h3, h4 {
   margin-bottom: 1.5rem;
 }
 
+.dress-code-line {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+  color: var(--off-black);
+  margin: 0 0 1rem;
+}
+
 .section-lede {
   max-width: 620px;
   color: var(--charcoal);
