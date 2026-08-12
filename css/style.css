@@ -764,6 +764,19 @@ section {
   margin-bottom: 0.35rem;
 }
 
+.rec-item h4 a {
+  background-image: linear-gradient(var(--black), var(--black));
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  padding-bottom: 2px;
+  transition: background-size var(--transition);
+}
+
+.rec-item h4 a:hover {
+  background-size: 100% 1px;
+}
+
 .rec-item .rec-tag {
   display: inline-block;
   font-size: 0.68rem;
